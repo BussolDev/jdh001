@@ -15,8 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Josh Henderson
-          Software Architect
+          <p>Josh Henderson</p>
+          <p>Software Architect</p>
         </a>
       </header>
     </div>
