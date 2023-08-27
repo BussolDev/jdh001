@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://www.linkedin.com/in/joshuadhenderson/"
+          href="https://bussol.net/wp-content/uploads/2023/08/Resume-Joshua-Henderson08272023.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
