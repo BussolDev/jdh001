@@ -13,7 +13,6 @@ function App() {
           rel="noopener noreferrer"
         >
           <p>Joshua D. Henderson</p>
-
         </a>
       </header>
     </div>
