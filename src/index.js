@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import AnimatedResume from './AnimatedResume';
 import reportWebVitals from './reportWebVitals';
+import ExpandableResume from './ExpandableResume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <AnimatedResume />
+    <ExpandableResume />
   </React.StrictMode>
 );
 
