@@ -12,6 +12,13 @@ const ExpandableResume = () => {
       setExpandedSection(sectionIndex);
     }
   };
+  const personalInfo = {
+    name: 'Joshua D. Henderson',
+    title: 'Sr. Solutions Architect / Fintech',
+    email: 'josh@bussol.net',
+    phone: '(303)803-6504',
+    address: 'CA / CO / TX',
+  };
 
   const experience = [
     {
@@ -79,6 +86,17 @@ const ExpandableResume = () => {
 
   return (
     <div className="expandable-resume">
+              <header className="header">
+        <h1 className="animated-subtitle">{personalInfo.title}</h1>
+      </header>
+      
+      <section className="contact">
+        <div className="animated-section">
+          <h2 className="section-title">Contact</h2>
+          <p>Email: {personalInfo.email}</p>
+          <p>Phone: {personalInfo.phone}</p>
+        </div>
+      </section>
       <header className="header">
         <h1 className="animated-heading">Experience</h1>
       </header>
