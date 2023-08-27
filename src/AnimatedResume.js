@@ -7,7 +7,7 @@ const AnimatedResume = () => {
     name: 'Joshua D. Henderson',
     title: 'Sr. Solutions Architect / Fintech',
     email: 'josh@bussol.net',
-    phone: '303-803-6504',
+    phone: '(303)803-6504',
     address: 'CA / CO / TX',
   };
 
@@ -34,8 +34,7 @@ const AnimatedResume = () => {
   return (
     <div className="animated-resume">
       <header className="header">
-        <h1 className="animated-heading">{personalInfo.name}</h1>
-        <p className="animated-subtitle">{personalInfo.title}</p>
+        <h1 className="animated-subtitle">{personalInfo.title}</h1>
       </header>
       
       <section className="contact">

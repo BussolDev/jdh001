@@ -23,7 +23,7 @@
     animation: fadeIn 1.5s ease-in-out;
   }
   
-  .animated-section:hover {
+  .animated-section {
     margin: 0;
     font-size: 16px;
     color: #666;
