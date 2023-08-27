@@ -5,6 +5,7 @@ import App from './App';
 import AnimatedResume from './AnimatedResume';
 import reportWebVitals from './reportWebVitals';
 import ExpandableResume from './ExpandableResume';
+import Resume from './resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

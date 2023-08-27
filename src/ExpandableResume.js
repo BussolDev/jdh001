@@ -97,6 +97,7 @@ const ExpandableResume = () => {
           <p>Phone: {personalInfo.phone}</p>
         </div>
       </section>
+      
       <header className="header">
         <h1 className="animated-heading">Experience</h1>
       </header>
