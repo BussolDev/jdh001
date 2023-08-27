@@ -89,12 +89,7 @@ const ExpandableResume = () => {
       company: 'NAB',
       date: 'Jul 2014 - 2018',
       description: [
-        'Work with multiple external and internal teams to define, design, develop, implement, and support technical solutions.',
-        'Perform extensive research to find or create the best technical solutions among all possible options.',
-        'Describe software aspects to project stakeholders in a non-technical way.',
-        'Provide specifications and documentation for solution development and delivery.',
-        'Support and manage development teams throughout the software development life-cycle.',
-        'Document solutions and processes for training, sales, and support.',
+        'Payment Gateway with APIs, Hardware, and other products that merchants can use to process electronic payments',
       ],
     },
   ];
