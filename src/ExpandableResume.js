@@ -108,8 +108,10 @@ const ExpandableResume = () => {
           onClick={() => toggleSection(index)}
         >
           <h2 className="section-title">
-            {exp.title} at {exp.company} ({exp.date})
+            {exp.title} at {exp.company}
           </h2>
+          <h3>({exp.date})</h3>
+          <p>+More Info</p>
           <div className="section-content">
             <ul>
               {exp.description.map((point, idx) => (
