@@ -83,7 +83,21 @@ const ExpandableResume = () => {
       ],
     },
   ];
-
+  const experience2 = [
+    {
+      title: 'Velocity Payment Gateway',
+      company: 'NAB',
+      date: 'Jul 2014 - 2018',
+      description: [
+        'Work with multiple external and internal teams to define, design, develop, implement, and support technical solutions.',
+        'Perform extensive research to find or create the best technical solutions among all possible options.',
+        'Describe software aspects to project stakeholders in a non-technical way.',
+        'Provide specifications and documentation for solution development and delivery.',
+        'Support and manage development teams throughout the software development life-cycle.',
+        'Document solutions and processes for training, sales, and support.',
+      ],
+    },
+  ];
   return (
     <div className="expandable-resume">
               <header className="header">
@@ -98,6 +112,31 @@ const ExpandableResume = () => {
         </div>
       </section>
       
+      <header className="header">
+        <h1 className="animated-heading">Projects</h1>
+      </header>
+
+      {experience2.map((exp, index) => (
+        <section
+          key={index}
+          className={`expandable-section ${expandedSection === index ? 'expanded' : ''}`}
+          onClick={() => toggleSection(index)}
+        >
+          <h2 className="section-title">
+            {exp.title} at {exp.company}
+          </h2>
+          <h3>({exp.date})</h3>
+          <p>+More Info</p>
+          <div className="section-content">
+            <ul>
+              {exp.description.map((point, idx) => (
+                <li key={idx}>{point}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ))}
+
       <header className="header">
         <h1 className="animated-heading">Experience</h1>
       </header>
